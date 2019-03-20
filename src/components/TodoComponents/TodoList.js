@@ -13,5 +13,12 @@ const list = [
         task: 'Bake Cookies',
         id: 1528817084358,
         completed: false 
+    },
+    {
+        task: 'Learn React',
+        id: 1528817036057,
+        completed: false 
     }
 ]
+
+//export default 
