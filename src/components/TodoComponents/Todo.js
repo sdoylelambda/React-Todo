@@ -1,21 +1,37 @@
 import React from 'react';
 
-function Todo(props) {
-    return (
-        <div className="todo-card">
-            <div className="todo-info">
-                <h5>{props.todoProp.name}</h5>
-                <p>
-                    <strong>Task:</strong> {props.todoProp.task} />
-
-                    <div
-
-                </p>
-            </div>
-        </div>
-    )
+const Todo = (props) => {
+   return (
+   <p>{props.todo.task}</p>
+   )
 }
 
+export default Todo;
 
 
-task, id, completed
+
+
+
+
+
+
+
+// function Todo(props) {
+//     return (
+//         <div className="todo-card">
+//             <div className="todo-info">
+//                 <h5>{props.todoProp.name}</h5>
+//                 <p>
+//                     <strong>Task:</strong> {props.todoProp.task} />
+
+//                     <div
+
+//                 </p>
+//             </div>
+//         </div>
+//     )
+// }
+
+
+
+// task, id, completed
