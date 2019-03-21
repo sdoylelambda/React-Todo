@@ -11,10 +11,6 @@ const ToDoList = (prop) => {
     );
 };
 
-
-
-
-
 export default ToDoList;
 
 
