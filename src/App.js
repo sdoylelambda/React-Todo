@@ -13,7 +13,7 @@ class App extends React.Component {
     super();
     this.state = {
       todos: [{
-        task: "get working",
+        task: "Todo List",
         id: id,
         completed: false
       }],
