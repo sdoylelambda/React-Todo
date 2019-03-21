@@ -3,11 +3,13 @@ import Todo from './Todo';
 
 const ToDoList = (prop) => {
     return (
-        <div>{prop.todoList2.map(todoItem => <Todo todo={todoItem}/>
-        )}
+        <div className="todo-list">
+        {prop.todoList2.map(todoItem => (
+        <Todo todo={todoItem.id} todo={todo} toggleItem={props.toggleItem} />
+        ))}
         </div>
-    )
-}
+    );
+};
 
 
 
